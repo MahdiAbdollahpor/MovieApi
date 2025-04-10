@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApi.Persistence", "Inf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApi.WebApi", "Presentation\MovieApi.WebApi\MovieApi.WebApi.csproj", "{5BFFEE66-4014-490A-A6AC-B2C847860A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Application", "Core\MovieApi.Application\MovieApi.Application.csproj", "{BBCEA196-1A2B-4E04-83F5-4E4BA35D7AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApi.Application", "Core\MovieApi.Application\MovieApi.Application.csproj", "{BBCEA196-1A2B-4E04-83F5-4E4BA35D7AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebUI", "Frontends\MovieApi.WebUI\MovieApi.WebUI.csproj", "{C30191FA-CCA5-4D8B-AC72-E04AD3B4C9E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{BBCEA196-1A2B-4E04-83F5-4E4BA35D7AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBCEA196-1A2B-4E04-83F5-4E4BA35D7AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBCEA196-1A2B-4E04-83F5-4E4BA35D7AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30191FA-CCA5-4D8B-AC72-E04AD3B4C9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30191FA-CCA5-4D8B-AC72-E04AD3B4C9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30191FA-CCA5-4D8B-AC72-E04AD3B4C9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30191FA-CCA5-4D8B-AC72-E04AD3B4C9E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{7D9B1AA3-7E53-4382-8A3E-5196ED913AD4} = {0A096C4B-F7FA-4D4F-811E-0215F6FC7C84}
 		{5BFFEE66-4014-490A-A6AC-B2C847860A89} = {976C5780-56A3-42C8-8312-172C150444FF}
 		{BBCEA196-1A2B-4E04-83F5-4E4BA35D7AB4} = {A79A9D58-B276-410A-9094-B71411DE991E}
+		{C30191FA-CCA5-4D8B-AC72-E04AD3B4C9E1} = {7AD28EB3-EF3A-4EED-B96A-9DC4A282F99F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E6A8A47-66CC-4DCF-826A-930476B87932}
